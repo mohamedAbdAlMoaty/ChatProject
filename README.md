@@ -32,13 +32,10 @@ android versions targeted:
 
 
 ### Libraries
-- AndroidX Support Library
-- AndroidX Architecture Components(Room, ViewModels, LiveData)
-- Glide
-- Gson
-- Retrofit2
-- OkHttp
-- YouTube API
+
+- Circleimageview
+- Picasso
+- Cardview
 
 
 ## Author
