@@ -47,7 +47,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 
 public class ChatActivity extends AppCompatActivity {
-    
+
     String mChatUser_id;
     Toolbar toolbar;
     TextView chatname;
