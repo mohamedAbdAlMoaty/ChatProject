@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_for_main"
+    android:padding="25dp"
+    android:id="@+id/rootLayout"
+    tools:context="com.mohamed.abdelmoaty.chatproject.activities.SettingActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:src="@drawable/profileimg"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/displayname"
+            android:text="Display Name"
+            android:textSize="24dp"
+          android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:fontFamily="@font/arkhip_font"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/status"
+            android:text="Hi there, im using Minion App"
+            android:padding="15dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/arkhip_font"
+            android:gravity="center_horizontal"
+            android:background="@drawable/background_for_enter"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:text="Change Image"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:id="@+id/imagebtn"
+            android:background="@drawable/background_for_btn"
+            android:padding="17dp"
+            android:fontFamily="@font/arkhip_font"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:text="Change Status"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:id="@+id/statusbtn"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_for_btn"
+            android:padding="17dp"
+            android:fontFamily="@font/arkhip_font"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+</LinearLayout>
