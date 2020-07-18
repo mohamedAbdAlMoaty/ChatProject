@@ -1,11 +1,10 @@
-# ChatProject
+# Minions App
 
 
 ### Technologies & Methodologies which used:
 
 - Java
 - Firebase
-- MVC Pattern
 
 
 # Firebase Android Open Source Development
@@ -25,7 +24,7 @@ dependencies:
 
 android versions targeted:
 
-- (API level 26) or higher
+- (API level 20) or higher
 
 
 ### Libraries
@@ -42,7 +41,7 @@ License
 --------
 
 
-    Copyright 2020 Mohamed Gowid.
+    Copyright 2017 Mohamed Gowid.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
