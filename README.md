@@ -1,14 +1,11 @@
 # ChatProject
 
-# Android-Clean-Arch-Coroutines -MVVM
-
-A Simple Android Mobile Application which has been implemented using Clean Architecture alongside MVVM design.
-
 
 ### Technologies & Methodologies which used:
 
 - Java
--Firebase
+- Firebase
+- MVC Pattern
 
 
 # Firebase Android Open Source Development
